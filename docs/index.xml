@@ -18,7 +18,10 @@
         
         <guid>https://leonwujihan.github.io/project-pupa/posts/test-zero/</guid>
         <description>Project Pupa https://leonwujihan.github.io/project-pupa/posts/test-zero/ -&lt;h1 id=&#34;newton第二定律&#34;&gt;Newton第二定律&lt;/h1&gt;
-&lt;p&gt;我随便说点话. 这是一些代码&lt;code&gt;input().split()&lt;/code&gt;. $\boldsymbol{F}=m\boldsymbol{a}$, 这就是Newton第二定律.&lt;/p&gt;
+&lt;p&gt;我随便说点话. 这是一些代码&lt;code&gt;input().split()&lt;/code&gt;. $\boldsymbol{F}=m\boldsymbol{a}$, 这就是Newton第二定律.
+$$
+F=ma
+$$&lt;/p&gt;
 - https://leonwujihan.github.io/project-pupa/posts/test-zero/ - </description>
         </item>
     

@@ -6,3 +6,6 @@ draft: false
 ---
 # Newton第二定律
 我随便说点话. 这是一些代码`input().split()`. $\boldsymbol{F}=m\boldsymbol{a}$, 这就是Newton第二定律.
+$$
+F=ma
+$$
