@@ -1,4 +1,4 @@
 baseURL = "https://leonwujihan.github.io/project-pupa/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "zh"
+title = "Project Pupa"
 theme = "diary"
