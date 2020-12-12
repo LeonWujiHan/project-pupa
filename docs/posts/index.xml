@@ -13,8 +13,13 @@
       <pubDate>Sun, 13 Dec 2020 01:29:23 +0800</pubDate>
       
       <guid>https://leonwujihan.github.io/project-pupa/posts/angular-momentum/</guid>
-      <description>作为示例, 将上学期整合量子力学与分子光谱的笔记贴出, 主要是赵新生老师《中级物理化学》教材的总结.
-角动量的本征态与本征值 定义三维物理空间中的矢量算符$\hat{\boldsymbol{J}}=\hat{J}_x\boldsymbol{e}_1+\hat{J}_y\boldsymbol{e}_2+\hat{J}_z\boldsymbol{e}_3$ 的三个分量$\hat{J}_x$, $\hat{J}_y$, $\hat{J}_z$ 满足如下对易关系, 称为角动量算符 $$ \left[\hat{J}_x,\hat{J}_y\right]=\mathrm{i}\hbar\hat{J}_z,\ \ \left[\hat{J}_y,\hat{J}_z\right]=\mathrm{i}\hbar\hat{J}_x,\ \ \left[\hat{J}_z,\hat{J}_x\right]=\mathrm{i}\hbar\hat{J}_y. $$. 或写为 $$ \left[\hat{J}_i,\hat{J}j\right]=\mathrm{i}\hbar\varepsilon{ijk}\hat{J}_k. $$</description>
+      <description>角动量的本征态与本征值 定义三维物理空间中的矢量算符$\hat{\boldsymbol{J}}=\hat{J}_x\boldsymbol{e}_1+\hat{J}_y\boldsymbol{e}_2+\hat{J}_z\boldsymbol{e}_3$ 的三个分量$\hat{J}_x$,$\hat{J}_y$,$\hat{J}_z$ 满足如下对易关系, 称为角动量算符 $$\left[\hat{J}_x,\hat{J}_y\right]=\mathrm{i}\hbar\hat{J}_z,\ \ \left[\hat{J}_y,\hat{J}_z\right]=\mathrm{i}\hbar\hat{J}_x,\ \ \left[\hat{J}_z,\hat{J}_x\right]=\mathrm{i}\hbar\hat{J}_y .$$ 或写为 $$\left[\hat{J}_i,\hat{J}_j\right]=\mathrm{i}\hbar\varepsilon_{ijk}\hat{J}_k .$$ 其中$$\varepsilon_{ijk}= \begin{cases} \left(-\right)^{N\left(\sigma\right)},\ \ \left(i\neq j\right)\cap \left(j\neq k\right)\cap \left(k\neq i\right)\\
+0,\ \ \left(i=j\right)\cup \left(j=k\right)\cup \left(k= i\right) \end{cases} .$$ $\sigma$ 为$ijk$ 的置换, $N\left(\sigma\right)$ 为置换的逆序数. 进一步定义角动量平方算符 $$\hat{J}^2=\hat{J}_x^2+\hat{J}_y^2+\hat{J}_z^2 .$$ 考虑$\hat{J}^2$ 与$\hat{J}_x$ 的对易关系有 $$\begin{aligned} \left[\hat{J}^2,\hat{J}_x\right]&amp;amp;= \left[\hat{J}_y^2,\hat{J}_x\right]+\left[\hat{J}_z^2,\hat{J}_x\right] \\
+&amp;amp;= \hat{J}_y^2\hat{J}_x-\hat{J}_x\hat{J}_y^2+\hat{J}_z^2\hat{J}_x-\hat{J}_x\hat{J}_z^2 \\
+&amp;amp;= \hat{J}_y\left(\hat{J}_y\hat{J}_x\right)-\left(\hat{J}_x\hat{J}_y\right)\hat{J}_y +\hat{J}_z^2\hat{J}_x-\hat{J}_x\hat{J}_z^2 \\
+&amp;amp;= \hat{J}_y\hat{J}_x\hat{J}_y-\mathrm{i}\hbar\hat{J}_y\hat{J}_z-\hat{J}_y\hat{J}_x\hat{J}_y-\mathrm{i}\hbar\hat{J}_z\hat{J}_y+\hat{J}_z^2\hat{J}_x-\hat{J}_x\hat{J}_z^2 \\
+&amp;amp;= -\mathrm{i}\hbar\hat{J}_y\hat{J}_z-\mathrm{i}\hbar\hat{J}_z\hat{J}_y+\mathrm{i}\hbar\hat{J}_z\hat{J}_y+\mathrm{i}\hbar\hat{J}_y\hat{J}_z \\
+&amp;amp;=0 .\end{aligned}$$ 类似地可得$\left[\hat{J}^2,\hat{J}_y\right]=0$, $\left[\hat{J}^2,\hat{J}_z\right]=0$. 于是有 $$\left[\hat{J}^2,\hat{J}_i\right]=0 .$$ 考虑$\hat{J}^2$ 与角动量任意分量(下文讨论$\hat{J}_z$)的共同本征矢$\left|ab\right&amp;gt;$, 满足 $$\hat{J}^2\left|ab\right&amp;gt;=a\left|ab\right&amp;gt;,\ \ \hat{J}_z\left|ab\right&amp;gt;=b \left|ab\right&amp;gt; .</description>
     </item>
     
     <item>
@@ -23,7 +28,7 @@
       <pubDate>Sat, 12 Dec 2020 21:04:37 +0800</pubDate>
       
       <guid>https://leonwujihan.github.io/project-pupa/posts/test-zero/</guid>
-      <description>Newton第二定律 我随便说点话. 这是一些代码 input().split(). $\boldsymbol{F}=m\boldsymbol{a}$, 这就是Newton第二定律. $$AveP = \int p(r) dr$$ 我继续试试公式: $\boldsymbol{F}{12}=\boldsymbol{F}{21}$</description>
+      <description>Newton第二定律 我随便说点话. 这是一些代码 input().split(). $\boldsymbol{F}=m\boldsymbol{a}$, 这就是Newton第二定律. $$AveP = \int p(r) dr$$ 我继续试试公式: $\boldsymbol{F}_{12}=\boldsymbol{F}_{21}$.</description>
     </item>
     
   </channel>

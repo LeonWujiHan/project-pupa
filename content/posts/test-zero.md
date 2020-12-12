@@ -6,4 +6,4 @@ draft: false
 ---
 # Newton第二定律
 我随便说点话. 这是一些代码 `input().split()`. $\boldsymbol{F}=m\boldsymbol{a}$, 这就是Newton第二定律. $$AveP = \int p(r) dr$$
-我继续试试公式: $\boldsymbol{F}_{12}=\boldsymbol{F}_{21}$
+我继续试试公式: $\boldsymbol{F}\_{12}=\boldsymbol{F}\_{21}$.

@@ -3,7 +3,6 @@ DefaultContentLanguage = "zh"
 languageCode = "zh"
 title = "Project Pupa"
 theme = "diary"
-math = true
 
 [markup]
   [markup.highlight]

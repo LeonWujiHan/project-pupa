@@ -75,30 +75,41 @@
 
 
 
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script>
-window.MathJax = {
-    tex: {
-        inlineMath: [['$','$'], ['\\(','\\)']],
-        autoload: {
-            color: [],
-            colorV2: ['color']
-        },
-        packages: {'[+]': ['noerrors']}
-    },
-    svg: {
-        fontCache: 'global'
-    },
-    options: {
-        ignoreHtmlClass: 'tex2jax_ignore',
-        processHtmlClass: 'tex2jax_process'
-    },
-    loader: {
-        load: ['[tex]/noerrors']
-    }
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
 };
 </script>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript" id="MathJax-script"
+async
+src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+MathJax.Hub.Queue(function() {
+
+
+
+var all = MathJax.Hub.getAllJax(), i;
+for(i = 0; i < all.length; i += 1) {
+all[i].SourceElement().parentNode.className += ' has-jax';
+}
+});
+</script>
+
+<style>
+code.has-jax {
+font: inherit;
+font-size: 100%;
+background: inherit;
+border: inherit;
+color: #515151;
+}
+</style>
 
 
 
@@ -285,7 +296,7 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
                                 角动量总结
                             </div>
                             <div class="post-item-summary">
-                                
+                                韩无极: 作为示例, 将上学期整合量子力学与分子光谱的笔记贴出, 主要是赵新生老师《中级物理化学》教材的总结.
                             </div>
                             <div class="post-item-meta">
     2020-12-13
@@ -299,9 +310,9 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
     
 
     
-    1 min
+    17 min
     
-    0 s
+    2 s
     
     
     &emsp;
