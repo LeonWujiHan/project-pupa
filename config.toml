@@ -1,4 +1,5 @@
 baseURL = "https://leonwujihan.github.io/project-pupa/"
+DefaultContentLanguage = "zh"
 languageCode = "zh"
 title = "Project Pupa"
 theme = "diary"
