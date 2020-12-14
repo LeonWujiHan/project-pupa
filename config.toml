@@ -34,8 +34,8 @@ description = "My HomePage Description"  # will set 'og:description'
   client_id = "your client id"
   client_secret = "your client secret"
 [taxonomies]
-   tag = "tags"
-   category = "categories"
+   tag = "标签"
+   category = "分类"
 
 [[menu.main]]
 url = "/categories"
