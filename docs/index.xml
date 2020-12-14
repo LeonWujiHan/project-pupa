@@ -1,23 +1,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Project Pupa</title>
-    <link>https://leonwujihan.github.io/project-pupa/</link>
+    <link>https://project-pupa.club/</link>
     <description>Recent content on Project Pupa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Sun, 13 Dec 2020 01:29:23 +0800</lastBuildDate>
     
-        <atom:link href="https://leonwujihan.github.io/project-pupa/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://project-pupa.club/index.xml" rel="self" type="application/rss+xml" />
     
     
     
         <item>
         <title>角动量总结</title>
-        <link>https://leonwujihan.github.io/project-pupa/posts/angular-momentum/</link>
+        <link>https://project-pupa.club/posts/angular-momentum/</link>
         <pubDate>Sun, 13 Dec 2020 01:29:23 +0800</pubDate>
         
-        <guid>https://leonwujihan.github.io/project-pupa/posts/angular-momentum/</guid>
-        <description>Project Pupa https://leonwujihan.github.io/project-pupa/posts/angular-momentum/ -&lt;h2 id=&#34;角动量的本征态与本征值&#34;&gt;角动量的本征态与本征值&lt;/h2&gt;
+        <guid>https://project-pupa.club/posts/angular-momentum/</guid>
+        <description>Project Pupa https://project-pupa.club/posts/angular-momentum/ -&lt;h2 id=&#34;角动量的本征态与本征值&#34;&gt;角动量的本征态与本征值&lt;/h2&gt;
 &lt;p&gt;定义三维物理空间中的矢量算符$\hat{\boldsymbol{J}}=\hat{J}_x\boldsymbol{e}_1+\hat{J}_y\boldsymbol{e}_2+\hat{J}_z\boldsymbol{e}_3$
 的三个分量$\hat{J}_x$,$\hat{J}_y$,$\hat{J}_z$ 满足如下对易关系,
 称为角动量算符
@@ -231,21 +231,21 @@ m=m_1+m_2\\&lt;br&gt;
 考虑$$\left(\hat{J}_z-\hat{J}_{1z}-\hat{J}_{2z}\right)\left|jmj_1j_2\right&amp;gt;=0
 .$$ 因此有 $$\left(m-m_1-m_2\right)\left|jmj_1j_2\right&amp;gt;
 .$$&lt;/p&gt;
-- https://leonwujihan.github.io/project-pupa/posts/angular-momentum/ - </description>
+- https://project-pupa.club/posts/angular-momentum/ - </description>
         </item>
     
     
     
         <item>
         <title>Test Zero</title>
-        <link>https://leonwujihan.github.io/project-pupa/posts/test-zero/</link>
+        <link>https://project-pupa.club/posts/test-zero/</link>
         <pubDate>Sat, 12 Dec 2020 21:04:37 +0800</pubDate>
         
-        <guid>https://leonwujihan.github.io/project-pupa/posts/test-zero/</guid>
-        <description>Project Pupa https://leonwujihan.github.io/project-pupa/posts/test-zero/ -&lt;h1 id=&#34;newton第二定律&#34;&gt;Newton第二定律&lt;/h1&gt;
+        <guid>https://project-pupa.club/posts/test-zero/</guid>
+        <description>Project Pupa https://project-pupa.club/posts/test-zero/ -&lt;h1 id=&#34;newton第二定律&#34;&gt;Newton第二定律&lt;/h1&gt;
 &lt;p&gt;我随便说点话. 这是一些代码 &lt;code&gt;input().split()&lt;/code&gt;. $\boldsymbol{F}=m\boldsymbol{a}$, 这就是Newton第二定律. $$AveP = \int p(r) dr$$
 我继续试试公式: $\boldsymbol{F}_{12}=\boldsymbol{F}_{21}$.&lt;/p&gt;
-- https://leonwujihan.github.io/project-pupa/posts/test-zero/ - </description>
+- https://project-pupa.club/posts/test-zero/ - </description>
         </item>
     
     
