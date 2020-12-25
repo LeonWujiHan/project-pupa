@@ -748,8 +748,8 @@ m=m_1+m_2\\<br>
             <nav class="post-pagination">
 
                 
-                <a class="newer-posts">
-			下回<br>已经到头啦。
+                <a class="newer-posts" href="https://project-pupa.club/posts/moore/">
+			下回<br>Moore
                 </a>
                 
                 
@@ -862,6 +862,8 @@ app = new Vue({
         var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1");
         if (night==""){
             if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                
+                this.toggleDarkMode();
                 
             }
         }else{

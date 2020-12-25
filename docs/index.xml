@@ -5,9 +5,25 @@
     <description>Recent content on Project Pupa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 13 Dec 2020 01:29:23 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 25 Dec 2020 15:15:48 +0800</lastBuildDate>
     
         <atom:link href="https://project-pupa.club/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>Moore</title>
+        <link>https://project-pupa.club/posts/moore/</link>
+        <pubDate>Fri, 25 Dec 2020 15:15:48 +0800</pubDate>
+        
+        <guid>https://project-pupa.club/posts/moore/</guid>
+        <description>Project Pupa https://project-pupa.club/posts/moore/ -&lt;p&gt;FinFET 的发明者胡正明对Moore定律的观点是:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;数字革命只是刚刚开始，智慧器件和数字革命，他们的基础都是半导体。既然没有其它的科技能够取代半导体来做数字功能和智慧器件的基础，那么我们这一行就应有一百年的远景。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;!-- raw HTML omitted --&gt;
+- https://project-pupa.club/posts/moore/ - </description>
+        </item>
     
     
     
@@ -245,7 +261,10 @@ m=m_1+m_2\\&lt;br&gt;
         <description>Project Pupa https://project-pupa.club/posts/test-zero/ -&lt;h1 id=&#34;newton第二定律&#34;&gt;Newton第二定律&lt;/h1&gt;
 &lt;p&gt;我随便说点话. 这是一些代码 &lt;code&gt;input().split()&lt;/code&gt;. $\boldsymbol{F}=m\boldsymbol{a}$, 这就是Newton第二定律. $$AveP = \int p(r) dr$$
 我继续试试公式: $\boldsymbol{F}_{12}=\boldsymbol{F}_{21}$.&lt;/p&gt;
-- https://project-pupa.club/posts/test-zero/ - </description>
+&lt;h2 id=&#34;二级标题&#34;&gt;二级标题&lt;/h2&gt;
+&lt;p&gt;滚滚长江东逝水, 浪花淘尽英雄. 是非成败转头空, 青山依旧在, 几度夕阳红.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;m = [[&lt;span style=&#34;color:#b452cd&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#8b008b;font-weight:bold&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#8b008b&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#658b00&#34;&gt;range&lt;/span&gt;(n)] &lt;span style=&#34;color:#8b008b;font-weight:bold&#34;&gt;for&lt;/span&gt; j &lt;span style=&#34;color:#8b008b&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#658b00&#34;&gt;range&lt;/span&gt;(m)]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;- https://project-pupa.club/posts/test-zero/ - </description>
         </item>
     
     
