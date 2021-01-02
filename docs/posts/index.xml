@@ -6,7 +6,11 @@
     <description>Recent content in Posts on Project Pupa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 25 Dec 2020 15:15:48 +0800</lastBuildDate><atom:link href="https://project-pupa.club/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Dec 2020 15:15:48 +0800</lastBuildDate>
+    
+	<atom:link href="https://project-pupa.club/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Moore</title>
       <link>https://project-pupa.club/posts/moore/</link>

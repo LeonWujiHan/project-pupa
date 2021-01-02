@@ -5,6 +5,10 @@
     <link>https://project-pupa.club/%E6%A0%87%E7%AD%BE/</link>
     <description>Recent content in 标签 on Project Pupa</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh</language><atom:link href="https://project-pupa.club/%E6%A0%87%E7%AD%BE/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh</language>
+    
+	<atom:link href="https://project-pupa.club/%E6%A0%87%E7%AD%BE/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>
