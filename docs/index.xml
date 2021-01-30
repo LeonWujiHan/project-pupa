@@ -17,7 +17,7 @@
         <pubDate>Thu, 28 Jan 2021 02:48:38 +0800</pubDate>
         
         <guid>https://project-pupa.club/posts/collabtest/</guid>
-        <description>Project Pupa https://project-pupa.club/posts/collabtest/ -&lt;p&gt;说一些话.&lt;/p&gt;
+        <description>Project Pupa https://project-pupa.club/posts/collabtest/ -&lt;p&gt;说一些话. 将项目文件复制到&lt;code&gt;github&lt;/code&gt;仓库&lt;code&gt;/content/post/&lt;/code&gt;目录中, 并提交(&lt;code&gt;commit&lt;/code&gt;), 推送(&lt;code&gt;push&lt;/code&gt;). 如项目中包含图片, 建议使用该上传方式. 添加内部&lt;a href=&#34;https://project-pupa.club/posts/test-zero/&#34; title=&#34;Github&#34;&gt;链接&lt;/a&gt;, 添加外部&lt;a href=&#34;%22https://github.com/%22&#34;&gt;链接&lt;/a&gt;&lt;/p&gt;
 - https://project-pupa.club/posts/collabtest/ - </description>
         </item>
     
