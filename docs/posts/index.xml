@@ -13,7 +13,10 @@
       <pubDate>Thu, 28 Jan 2021 02:48:38 +0800</pubDate>
       
       <guid>https://project-pupa.club/posts/collabtest/</guid>
-      <description>说一些话. 将项目文件复制到github仓库/content/post/目录中, 并提交(commit), 推送(push). 如项目中包含图片, 建议使用该上传方式. 添加内部链接, 添加外部链接. 外链Youtube视频:   </description>
+      <description>说一些话. 将项目文件复制到github仓库/content/post/目录中, 并提交(commit), 推送(push). 如项目中包含图片, 建议使用该上传方式. 添加内部链接, 添加外部链接. 外链Youtube视频:   现在尝试Hugo与Vim的兼容性, 是否能较快进行同步.
+ 滚滚长江东逝水, 浪花淘尽英雄.
+ 一些行内代码cd ./project-pupa/. 一些行间代码:
+from xml.etree import ElementTree </description>
     </item>
     
     <item>
