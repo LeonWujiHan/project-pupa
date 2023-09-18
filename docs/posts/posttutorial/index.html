@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta name="robots" content="noodp" />
+    <title>教程: 稿件发布 - Project Pupa</title><meta name="author" content="">
+<meta name="author-link" content="">
+<meta name="description" content="Git与版本控制入门 由于 Project Pupa 的管理涉及多人、多文档的协作，而我们希望对这些文件进行妥善且方便的管理，Git 便成为了当前最优的选择。以下内容未" /><meta name="keywords" content='Hugo, FixIt' /><meta itemprop="name" content="教程: 稿件发布">
+<meta itemprop="description" content="Git与版本控制入门 由于 Project Pupa 的管理涉及多人、多文档的协作，而我们希望对这些文件进行妥善且方便的管理，Git 便成为了当前最优的选择。以下内容未"><meta itemprop="datePublished" content="2021-02-14T13:49:00+08:00" />
+<meta itemprop="dateModified" content="2021-02-14T13:49:00+08:00" />
+<meta itemprop="wordCount" content="1293">
+<meta itemprop="keywords" content="" /><meta property="og:title" content="教程: 稿件发布" />
+<meta property="og:description" content="Git与版本控制入门 由于 Project Pupa 的管理涉及多人、多文档的协作，而我们希望对这些文件进行妥善且方便的管理，Git 便成为了当前最优的选择。以下内容未" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://leonwujihan.github.io/project-pupa/posts/posttutorial/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-02-14T13:49:00+08:00" />
+<meta property="article:modified_time" content="2021-02-14T13:49:00+08:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="教程: 稿件发布"/>
+<meta name="twitter:description" content="Git与版本控制入门 由于 Project Pupa 的管理涉及多人、多文档的协作，而我们希望对这些文件进行妥善且方便的管理，Git 便成为了当前最优的选择。以下内容未"/>
+<meta name="application-name" content="FixIt">
+<meta name="apple-mobile-web-app-title" content="FixIt"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" href="https://leonwujihan.github.io/project-pupa/posts/posttutorial/" /><link rel="prev" href="https://leonwujihan.github.io/project-pupa/posts/collabtest/" /><link rel="stylesheet" href="/project-pupa/css/style.min.css"><link rel="stylesheet" href="/project-pupa/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/project-pupa/lib/animate/animate.min.css"><script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "教程: 稿件发布",
+    "inLanguage": "zh-CN",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https:\/\/leonwujihan.github.io\/project-pupa\/posts\/posttutorial\/"
+    },"genre": "posts","wordcount":  1293 ,
+    "url": "https:\/\/leonwujihan.github.io\/project-pupa\/posts\/posttutorial\/","datePublished": "2021-02-14T13:49:00+08:00","dateModified": "2021-02-14T13:49:00+08:00","publisher": {
+      "@type": "Organization",
+      "name": ""},"author": {
+        "@type": "Person",
+        "name": "作者"
+      },"description": ""
+  }
+  </script></head>
+  <body data-header-desktop="sticky" data-header-mobile="auto"><script>(window.localStorage?.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('data-theme', 'dark');</script><div class="wrapper" data-page-style="normal"><header class="desktop animate__faster" id="header-desktop">
+  <div class="header-wrapper">
+    <div class="header-title">
+      <a href="/project-pupa/" title="Project Pupa"><img loading="lazy" src="/fixit.min.svg" srcset="/fixit.min.svg, /fixit.min.svg 1.5x, /fixit.min.svg 2x" sizes="auto" data-title="Project Pupa" data-alt="Project Pupa" class="logo" style="background: url(/project-pupa/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/><span class="header-title-text">My Hugo FixIt Site</span></a><span class="header-subtitle"></span></div>
+    <nav>
+      <ul class="menu"><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/project-pupa/posts/"
+                
+                
+              >文章</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/project-pupa/categories/"
+                
+                
+              >分类</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/project-pupa/tags/"
+                
+                
+              >标签</a></li><li class="menu-item delimiter"></li><li class="menu-item theme-switch" title="切换主题">
+          <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+        </li></ul>
+    </nav>
+  </div>
+</header><header class="mobile animate__faster" id="header-mobile">
+  <div class="header-container">
+    <div class="header-wrapper">
+      <div class="header-title">
+        <a href="/project-pupa/" title="Project Pupa"><img loading="lazy" src="/fixit.min.svg" srcset="/fixit.min.svg, /fixit.min.svg 1.5x, /fixit.min.svg 2x" sizes="auto" data-title="/fixit.min.svg" data-alt="/fixit.min.svg" class="logo" style="background: url(/project-pupa/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/><span class="header-title-text">My Hugo FixIt Site</span></a><span class="header-subtitle"></span></div>
+      <div class="menu-toggle" id="menu-toggle-mobile">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <nav>
+      <ul class="menu" id="menu-mobile"><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/project-pupa/posts/"
+                  
+                  
+                >文章</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/project-pupa/categories/"
+                  
+                  
+                >分类</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/project-pupa/tags/"
+                  
+                  
+                >标签</a></li><li class="menu-item menu-system">
+          <span class="menu-system-item theme-switch" title="切换主题"><i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i></span></li>
+      </ul>
+    </nav>
+  </div>
+</header><main class="container"><aside class="toc" id="toc-auto"><h2 class="toc-title">目录&nbsp;<i class="toc-icon fa-solid fa-angle-down fa-fw" aria-hidden="true"></i></h2>
+      <div class="toc-content" id="toc-content-auto"></div></aside>
+
+  <aside class="aside-custom">
+    </aside>
+
+  <article class="page single">
+    <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>教程: 稿件发布</span>
+      </h1></div><div class="post-meta">
+      <div class="post-meta-line"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
+      Anonymous</span></span></div>
+      <div class="post-meta-line"><span title="发布于 2021-02-14 13:49:00"><i class="fa-regular fa-calendar-alt fa-fw me-1" aria-hidden="true"></i><time datetime="2021-02-14">2021-02-14</time></span>&nbsp;<span title="更新于 2021-02-14 13:49:00"><i class="fa-regular fa-edit fa-fw me-1" aria-hidden="true"></i><time datetime="2021-02-14">2021-02-14</time></span>&nbsp;<span><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>约 1293 字</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>预计阅读 3 分钟</span>&nbsp;</div>
+    </div><div class="details toc" id="toc-static" data-kept="false">
+        <div class="details-summary toc-title">
+          <span>目录</span>
+          <span><i class="details-icon fa-solid fa-angle-right" aria-hidden="true"></i></span>
+        </div>
+        <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#git与版本控制入门">Git与版本控制入门</a>
+      <ul>
+        <li><a href="#关于版本控制">关于版本控制</a></li>
+        <li><a href="#关于git">关于Git</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+      </div><div class="content" id="content"><h2 id="git与版本控制入门">Git与版本控制入门</h2>
+<p>由于 Project Pupa 的管理涉及多人、多文档的协作，而我们希望对这些文件进行妥善且方便的管理，<a href="https://git-scm.com"target="_blank" rel="external nofollow noopener noreferrer">Git</a> 便成为了当前最优的选择。以下内容未经说明，均参考自 Git 社区的<a href="https://git-scm.com/book/zh/v2/"target="_blank" rel="external nofollow noopener noreferrer">教程书</a>（<em>Pro Git</em>, Scott Chacon and Ben Straub, Apress 2014），如有需要，笔者建议详细阅读。</p>
+<h3 id="关于版本控制">关于版本控制</h3>
+<p>Git 教程书首先对版本控制系统（version control system, VCS）进行了简单介绍：</p>
+<blockquote>
+<p>版本控制是一种记录一个或若干文件内容变化，以便将来查阅特定版本修订情况的系统。 在本书所展示的例子中，我们对保存着软件源代码的文件作版本控制，但实际上，你可以对任何类型的文件进行版本控制。</p>
+</blockquote>
+<p>简单来讲，版本控制系统不仅是一种可以追溯到任意时间点新增、删除或修改的备份数据库，更是一种合理科学的组织工作文件的方式。
+在 Git 被广泛使用之前，另一些版本控制系统曾被使用。例如 <a href="https://www.gnu.org"target="_blank" rel="external nofollow noopener noreferrer">GNU</a> 计划所使用的修订控制系统（revision control system, <a href="https://www.gnu.org/software/rcs/"target="_blank" rel="external nofollow noopener noreferrer">RCS</a>），以及其前端中的一种──协作版本系统（concurrent versions system, <a href="https://savannah.nongnu.org/projects/cvs"target="_blank" rel="external nofollow noopener noreferrer">CVS</a>），类似的系统还有多种多样。总地来说，先前的版本控制系统可以分为本地版本控制系统（local version control systems）集中式版本控制系统（centralized version control systems, CVCS）。二者共同点在于，需要单个终端作为总控制终端：对于本地版本控制系统，软件会创建一个数据库，用来存储文件的新增、修改等等；而对于集中式版本控制系统，存在一个单一的服务器，协同工作的人们都通过客户端连接到该服务器，同步最新的文件，或是提交文件更新。
+通过集中式版本控制系统，管理员可以方便地添加协作者，随时知晓不同人对项目进行的修改，而仅需维护单个服务器，但它也存在问题：</p>
+<blockquote>
+<p>这么做最显而易见的缺点是中央服务器的单点故障。 如果宕机一小时，那么在这一小时内，谁都无法提交更新，也就无法协同工作。 如果中心数据库所在的磁盘发生损坏，又没有做恰当备份，毫无疑问你将丢失所有数据——包括项目的整个变更历史，只剩下人们在各自机器上保留的单独快照。</p>
+</blockquote>
+<p>人们为了解决这一问题建立了<strong>分布式版本控制系统</strong>（distributed version control systems, DVCS）这一概念。分布式版本控制系统的最大特点是，客户端不仅会获取当前文件快照（最新的一套项目文件），同时把代码仓库（repository)，包含之前的所有版本，完整克隆（clone）到本地。这样就避免了集中式系统文件丢失的问题。</p>
+<h3 id="关于git">关于Git</h3>
+<p>Git 是一个诞生于 2005 年的版本控制系统，和许多开源项目一样，Git 的开发也有着类似的背景：</p>
+<blockquote>
+<p>2005 年，开发 BitKeeper 的商业公司同 Linux 内核开源社区的合作关系结束，他们收回了 Linux 内核社区免费使用 BitKeeper 的权力。 这就迫使 Linux 开源社区（特别是 Linux 的缔造者 Linus Torvalds）基于使用 BitKeeper 时的经验教训，开发出自己的版本系统。</p>
+</blockquote>
+<p>与 Git 相类似的分布式版本控制系统有 <a href="https://subversion.apache.org"target="_blank" rel="external nofollow noopener noreferrer">Subversion</a> 等。Git 从各类分布式版本控制系统中最先脱颖而出的一个特性在于对文件的处理方式：相较于基于差异（delta-based）的版本控制对文件的变更进行记录（例如，变更列表的一条可以是：文件 A 在版本 2 中进行了修改 3，内容为…），Git会把每次文件版本更改后的新文件存入数据库，在一个版本快照中，包含新文件和全部文件的索引，在该版本未经修改的文件则仅存储一条指向旧文件的链接。</p>
+</div><div class="post-footer" id="post-footer">
+  <div class="post-info">
+    <div class="post-info-line">
+      <div class="post-info-mod">
+        <span title="更新于 2021-02-14 13:49:00">更新于 2021-02-14&nbsp;</span>
+      </div><div class="post-info-license">
+          <span><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span>
+        </div></div>
+    <div class="post-info-line">
+      <div class="post-info-md"></div>
+      <div class="post-info-share">
+        <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://leonwujihan.github.io/project-pupa/posts/posttutorial/" data-title="教程: 稿件发布"><i class="fa-brands fa-twitter fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://leonwujihan.github.io/project-pupa/posts/posttutorial/"><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://leonwujihan.github.io/project-pupa/posts/posttutorial/" data-title="教程: 稿件发布"><i class="fa-brands fa-weibo fa-fw" aria-hidden="true"></i></a>
+  </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="post-info-more">
+    <section class="post-tags"></section>
+    <section>
+      <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/project-pupa/">主页</a></span>
+    </section>
+  </div>
+
+  <div class="post-nav"><a href="/project-pupa/posts/collabtest/" class="post-nav-item" rel="prev" title="Collabtest"><i class="fa-solid fa-angle-left fa-fw" aria-hidden="true"></i>Collabtest</a></div>
+</div>
+</article></main><footer class="footer">
+    <div class="footer-container"><div class="footer-line powered">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.118.2">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.2.18"><img class="fixit-icon" src="/project-pupa/fixit.min.svg" alt="FixIt logo" />&nbsp;FixIt</a>
+        </div><div class="footer-line copyright" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
+            <span itemprop="copyrightYear">2023</span><span class="author" itemprop="copyrightHolder">
+              <a href="/project-pupa/"></a></span></div><div class="footer-line statistics"></div></div>
+  </footer></div><div class="widgets"><div class="fixed-buttons animate__faster d-none"><div class="fixed-button back-to-top" role="button" aria-label="回到顶部"><i class="fa-solid fa-arrow-up fa-fw" aria-hidden="true"></i><span class="variant-numeric d-none">0%</span>
+        </div></div><div id="mask"></div><noscript>
+    <div class="noscript-warning">FixIt 主题在启用 JavaScript 的情况下效果最佳。</div>
+  </noscript>
+</div><link rel="stylesheet" href="/project-pupa/lib/katex/katex.min.css"><link rel="stylesheet" href="/project-pupa/lib/cookieconsent/cookieconsent.min.css"><script src="/project-pupa/lib/sharer/sharer.min.js" async defer></script><script src="/project-pupa/lib/katex/katex.min.js" defer></script><script src="/project-pupa/lib/katex/auto-render.min.js" defer></script><script src="/project-pupa/lib/katex/copy-tex.min.js" defer></script><script src="/project-pupa/lib/katex/mhchem.min.js" defer></script><script src="/project-pupa/lib/cookieconsent/cookieconsent.min.js" defer></script><script>window.config={"code":{"copyTitle":"复制到剪贴板","editLockTitle":"锁定可编辑代码块","editUnLockTitle":"解锁可编辑代码块","editable":true,"maxShownLines":10},"comment":{"enable":false},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验。"},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false}};</script><script src="/project-pupa/js/theme.min.js" defer></script></body>
+</html>
