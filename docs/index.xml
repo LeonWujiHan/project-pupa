@@ -11,7 +11,8 @@
   <pubDate>Sun, 17 Sep 2023 21:21:23 -0700</pubDate>
   <author>作者</author>
   <guid>https://leonwujihan.github.io/project-pupa/posts/obsidian-setup-for-math-note-taking/</guid>
-  <description><![CDATA[Introduction The Stone Age I started writing $\LaTeX$ documents since the first semester of my undergraduate program. As a $\LaTeX$ novice, I first installed the default MacTeX 2018 distribution and finished all my lab reports using the TeXShop software that comes with MacTeX. I have to say, the journey of learning all syntax from scratch was fascinating (for those who are interested in typesetting real $\LaTeX$ documents, LaTeX-Tutorial has some really good examples).]]></description>
+  <description><![CDATA[Introduction The Stone Age I started writing $\LaTeX$ documents since the first semester of my undergraduate program. As a $\LaTeX$ novice, I first installed the default MacTeX 2018 distribution and finished all my lab reports using the TeXShop software that comes with MacTeX.
+I have to say, the journey of learning all syntax from scratch was fascinating (for those who are interested in typesetting real $\LaTeX$ documents, LaTeX-Tutorial has some really good examples).]]></description>
 </item>
 <item>
   <title>教程: 稿件发布</title>
