@@ -81,7 +81,7 @@ The first step is, obviously, download the software from the [Obsidian](https://
 
 For iOS users, things get just a little bit more complicated:
 * iCloud: If you want system-level sync integration, install the iOS Obsidian before you do anything on your personal computer. Under iOS Obsidian, create a new vault. Then select to open that vault folder in desktop Obsidian.
-![Creating a Vault under iOS](images/create_ios_vault_shade_pad.png|360)
+![Creating a Vault under iOS](images/create_ios_vault_shade_pad.png)
 	* If you are using iOS and/or iPadOS device with any other desktop operating system, such as iOS + iPadOS + Linux or iOS + Windows, you might need to install iCloud on either Windows or Linux PC. Mac users can just open the folder after creating it under iOS.
 * OneDrive, DropBox, AWS etc.: there is a [Remotely Save](https://github.com/remotely-save/remotely-save) plugin for Obsidian, which have not been tested by me.
 * Other methods are being discussed at this [Reddit Post](https://www.reddit.com/r/ObsidianMD/comments/y4o76p/struggling_to_get_obsidian_ios_to_point_to_vault/), or you can just pay for the syncing service.
