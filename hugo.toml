@@ -67,3 +67,4 @@ theme = "FixIt"
   [markup.highlight]
     # false 是必要的设置 (https://github.com/hugo-fixit/FixIt/issues/43)
     noClasses = false
+  

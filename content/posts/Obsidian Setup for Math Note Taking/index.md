@@ -81,7 +81,7 @@ The first step is, obviously, download the software from the [Obsidian](https://
 
 For iOS users, things get just a little bit more complicated:
 * iCloud: If you want system-level sync integration, install the iOS Obsidian before you do anything on your personal computer. Under iOS Obsidian, create a new vault. Then select to open that vault folder in desktop Obsidian.
-![Creating a Vault under iOS](images/create_ios_vault_shade_pad.png)
+![Creating a Vault under iOS](/images/create_ios_vault_shade_pad.png|360)
 	* If you are using iOS and/or iPadOS device with any other desktop operating system, such as iOS + iPadOS + Linux or iOS + Windows, you might need to install iCloud on either Windows or Linux PC. Mac users can just open the folder after creating it under iOS.
 * OneDrive, DropBox, AWS etc.: there is a [Remotely Save](https://github.com/remotely-save/remotely-save) plugin for Obsidian, which have not been tested by me.
 * Other methods are being discussed at this [Reddit Post](https://www.reddit.com/r/ObsidianMD/comments/y4o76p/struggling_to_get_obsidian_ios_to_point_to_vault/), or you can just pay for the syncing service.
@@ -91,7 +91,7 @@ To install LaTeX Suite, follow the [steps](https://help.obsidian.md/Extending+Ob
 2. Select **Turn on community plugins** (make sure restricted mode is off).
 3. Select **Browse** to explore available community plugins.
 4. Search for **LaTeX Suite**, and **Install**.
-![Installing LaTeX Suite](images/community_plugin.png)
+![Installing LaTeX Suite](/images/community_plugin.png)
 5. There is also a plugin called [Extended MathJax](https://github.com/wei2912/obsidian-latex), which allows the user to alter preambles. As for now, I created the file `preamble.sty` and included `\newcommand{\bm}{\boldsymbol}` in the file to let `\bm` command render correctly if someone is transferring from [KaTeX](https://katex.org).
 
 Once you installed LaTeX Suite, you can configure the snippets within the plugin. The plugin comes with a set of [default snippets](https://github.com/artisticat1/obsidian-latex-suite/blob/main/src/default_snippets.ts), which is loosely based on [Gilles Castell's](https://castel.dev/post/lecture-notes-1/#other-snippets). However, it is encouraged that you modify them on your own. To do so, open Settings, and scroll down until you find the settings of LaTeX Suite. You can see the snippets as a collection of typescript text.
