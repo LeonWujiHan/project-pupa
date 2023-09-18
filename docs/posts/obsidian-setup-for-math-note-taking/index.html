@@ -189,11 +189,11 @@ $$
 $$
 and this:
 $$
-\begin{align}
+\begin{aligned}
 u(x,t) &amp;= \frac{Aa}{ES\omega} \frac{\sin \frac{\omega}{a}x}{\cos \frac{\omega}{a}l}\sin \omega t + \frac{Aa}{ESl\omega \cos \frac{\omega}{a}l}\left[ \frac{(-)^{m}a}{2\omega}\cos \frac{\omega}{a}l - l \right] \sin \frac{\omega}{a}x\sin \omega t \
 &amp;+ \frac{4A\omega}{\pi ESa}\sum_{n=0,n\neq m} \frac{(-)^{n}}{2n+1} \frac{1}{\left( \frac{\omega}{a} \right)^{2}-\left( \frac{2n+1}{2l}\pi \right)^{2}}\sin \frac{2n+1}{2l}\pi x\sin \frac{2n+1}{2l}a\pi t \
 &amp;= \frac{(-)^{m}Aa^{2}}{2ESl\omega^{2}}\sin \frac{\omega}{a}x\sin \omega t.
-\end{align}
+\end{aligned}
 $$
 I also used <a href="https://mathpix.com/snip"target="_blank" rel="external nofollow noopener noreferrer">Mathpix Snips</a> (it was free at that time) for copying some nicely formatted equation images.
 However, despite the fact that I finished my undergraduate thesis using the combination of <a href="https://github.com/lervag/vimtex"target="_blank" rel="external nofollow noopener noreferrer">VimTeX</a> and <a href="https://github.com/SirVer/ultisnips"target="_blank" rel="external nofollow noopener noreferrer">UltiSnips</a>, I still found an annoying point: $\LaTeX$ requires compiling the document again for any original file change. Although VimTeX makes it a lot easier and faster, the compilation still needs time. This time issue underlies the problem of correcting any error during typing. What might be counter-intuitive is, as I become more experienced, I start to feel more frustrated when I typed something wrong and/or mis-trigger some snippet. Looking reminiscently, it&rsquo;s reasonable because an experienced typer tends to type more characters before recompile the document to see the effect. The separation of <code>.tex</code> file and the rendered document also makes $\LaTeX$ documents less like a note, not to say having to use <code>\item</code> and <code>\begin{}</code> for a simple bullet or enumerated list.

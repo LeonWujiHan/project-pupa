@@ -8,6 +8,7 @@ draft: false
 ## Introduction
 ### The Stone Age
 I started writing $\LaTeX$ documents since the first semester of my undergraduate program. As a $\LaTeX$ novice, I first installed the default [MacTeX](https://tug.org/mactex/) 2018 distribution and finished all my lab reports using the [TeXShop](https://pages.uoregon.edu/koch/texshop/obtaining.html) software that comes with MacTeX.
+
 I have to say, the journey of learning all syntax from scratch was fascinating (for those who are interested in typesetting real $\LaTeX$ documents, [LaTeX-Tutorial](https://latex-tutorial.com)  has some really good examples). I still remember the days when I was formatting tables, placing the captions, drawing optical diagrams and electrical circuits, etc. all by typing lines of codes. They look clean, neat and beautiful, which forced me to keep on producing high-quality documents purely to satisfy my eyes.
 ![A Circuit Drawn by CircuiTikZ](/images/ISP_PD_diagram.png)
 ```latex
@@ -40,21 +41,23 @@ At that time, I wasn't doing any real hardcore math note taking. To speed up typ
 This looks awkward from a modern point of view, but that really was how I tried to avoid typing too many characters. I wasn't aware of the caveats until a year after.
 ### Polishing Cold Weapons
 As COVID hit Beijing early 2020, I had my first remote semester in my life. What made the quarantine life even worse was that I took both Quantum Mechanics and Intro to Mathematical Physics (solving some basic partial differential equations). With the necessity of taking and sharing note, I suddenly realized that my replacement in preamble won't render correctly if somebody else pasted my version of equations to their own documents!
+
 I then convinced myself that for general purposes, the $\TeX$ equation itself shouldn't be altered via custom abbreviations. Instead, there should be some way that can automatically expand the characters. I then came over the [article](https://castel.dev/post/lecture-notes-1/) from [Gilles Castel's Blog](https://castel.dev), which reshaped my mind totally. Whatever learning curve would be, the speed that I could eventually achieve looked promising, so I dived in.
+
 I became intermediately experienced in Vim, and I learned touch typing. I immersed myself into note taking everyday, and built up a lot of notes. The craziest thing during that semester was, I typed my Quantum Mechanics midterm by hand! It was so smooth to type any equation like this:
 $$
-\lim_{\varepsilon \to 0^{+}} \int_{-\varepsilon}^{\varepsilon}\psi''\left(x\right)\,\mathrm{d}x=-\frac{2mV_0}{\hbar^2}\lim_{\varepsilon \to 0^{+}} \int_{-\varepsilon}^{\varepsilon} \psi\left(x\right)\delta\left(x\right)\,\mathrm{d}x,
+\lim_{\varepsilon \to 0^{+}} \int_{-\varepsilon}^{\varepsilon}\psi\rq\rq\left(x\right)\,\mathrm{d}x=-\frac{2mV_0}{\hbar^2}\lim_{\varepsilon \to 0^{+}} \int_{-\varepsilon}^{\varepsilon} \psi\left(x\right)\delta\left(x\right)\\,\mathrm{d}x,
 $$
 and this:
 $$
-\begin{align}
-u(x,t) &= \frac{Aa}{ES\omega} \frac{\sin \frac{\omega}{a}x}{\cos \frac{\omega}{a}l}\sin \omega t + \frac{Aa}{ESl\omega \cos \frac{\omega}{a}l}\left[ \frac{(-)^{m}a}{2\omega}\cos \frac{\omega}{a}l - l \right] \sin \frac{\omega}{a}x\sin \omega t \\
-&+ \frac{4A\omega}{\pi ESa}\sum_{n=0,n\neq m} \frac{(-)^{n}}{2n+1} \frac{1}{\left( \frac{\omega}{a} \right)^{2}-\left( \frac{2n+1}{2l}\pi \right)^{2}}\sin \frac{2n+1}{2l}\pi x\sin \frac{2n+1}{2l}a\pi t \\
-&= \frac{(-)^{m}Aa^{2}}{2ESl\omega^{2}}\sin \frac{\omega}{a}x\sin \omega t.
-\end{align}
+\begin{align*} u(x,t) &= \frac{Aa}{ES\omega} \frac{\sin \frac{\omega}{a}x}{\cos \frac{\omega}{a}l}\sin \omega t + \frac{Aa}{ESl\omega \cos \frac{\omega}{a}l}\left[ \frac{(-)^{m}a}{2\omega}\cos \frac{\omega}{a}l - l \right] \sin \frac{\omega}{a}x\sin \omega t \\\\
+&+ \frac{4A\omega}{\pi ESa}\sum_{n=0,n\neq m} \frac{(-)^{n}}{2n+1} \frac{1}{\left( \frac{\omega}{a} \right)^{2}-\left( \frac{2n+1}{2l}\pi \right)^{2}}\sin \frac{2n+1}{2l}\pi x\sin \frac{2n+1}{2l}a\pi t \\\\
+&= \frac{(-)^{m}Aa^{2}}{2ESl\omega^{2}}\sin \frac{\omega}{a}x\sin \omega t. \end{align*}
 $$
 I also used [Mathpix Snips](https://mathpix.com/snip) (it was free at that time) for copying some nicely formatted equation images. 
+
 However, despite the fact that I finished my undergraduate thesis using the combination of [VimTeX](https://github.com/lervag/vimtex) and [UltiSnips](https://github.com/SirVer/ultisnips), I still found an annoying point: $\LaTeX$ requires compiling the document again for any original file change. Although VimTeX makes it a lot easier and faster, the compilation still needs time. This time issue underlies the problem of correcting any error during typing. What might be counter-intuitive is, as I become more experienced, I start to feel more frustrated when I typed something wrong and/or mis-trigger some snippet. Looking reminiscently, it's reasonable because an experienced typer tends to type more characters before recompile the document to see the effect. The separation of `.tex` file and the rendered document also makes $\LaTeX$ documents less like a note, not to say having to use `\item` and `\begin{}` for a simple bullet or enumerated list.
+
 In the meantime I also tried [Notion](https://www.notion.so). I will say it definitely has some really tempting features, such as nice UI and formatting, native cloud storage, database, etc., but after some extensive period of (free student) use, I found myself not really accustomed to the workflow management concept from which the software is designed. Vim and $\LaTeX$ snippet support are also in complete in Notion, the former being really useful to focus our hands on keyboard. 
 ### Embracing Pistol
 Here comes the problem. Is there any software that can handle:
@@ -63,14 +66,19 @@ Here comes the problem. Is there any software that can handle:
 3. $\TeX$ real-time rendering
 4. Text expansion triggers that resembles UltiSnips
 5. File based, making it easy to automate
+
 I didn't believe this editor exists, and was planning to make my own. 
+
 Then came [Obsidian](https://obsidian.md) and [Obsidian LaTeX Suite](https://github.com/artisticat1/obsidian-latex-suite#cheatsheet). 
+
 This is, by far, the ultimate and perfect setup of mathematical note taking. Literally the best, no competitors.
+
 From stone to metal, now we have firearms.
 ## The Actual Setup
 
 ### Installation and Cloud Sync
-The first step is, obviously, download the software from the [Obsidian](https://obsidian.md) website. After the installation, you will have to **create a new vault**. Obsidian can function perfectly without internet connection, but it is always better if you have same data on multiple devices. Obsidian is totally free for personal use, and it provides a cloud syncing service that cost $96 a year or $10 a month. However, this cloud service is **totally optional** and you will not lose any feature without that. You just need some configurations before creating the vault. Most of the time (if you are not an iOS user), use any cloud services from Microsoft, Google, Amazon, etc. you like, the vault created under the cloud directory will behave just as like a cloud folder. 
+The first step is, obviously, download the software from the [Obsidian](https://obsidian.md) website. After the installation, you will have to **create a new vault**. Obsidian can function perfectly without internet connection, but it is always better if you have same data on multiple devices. Obsidian is totally free for personal use, and it provides a cloud syncing service that cost $8-10 a month. However, this cloud service is **totally optional** and you will not lose any feature without that. You just need some configurations before creating the vault. Most of the time (if you are not an iOS user), use any cloud services from Microsoft, Google, Amazon, etc. you like, the vault created under the cloud directory will behave just as like a cloud folder. 
+
 For iOS users, things get just a little bit more complicated:
 * iCloud: If you want system-level sync integration, install the iOS Obsidian before you do anything on your personal computer. Under iOS Obsidian, create a new vault. Then select to open that vault folder in desktop Obsidian.
 ![Creating a Vault under iOS](/images/create_ios_vault_shade_pad.png|360)
@@ -84,9 +92,12 @@ To install LaTeX Suite, follow the [steps](https://help.obsidian.md/Extending+Ob
 3. Select **Browse** to explore available community plugins.
 4. Search for **LaTeX Suite**, and **Install**.
 ![Installing LaTeX Suite](/images/community_plugin.png)
-1. There is also a plugin called [Extended MathJax](https://github.com/wei2912/obsidian-latex), which allows the user to alter preambles. As for now, I created the file `preamble.sty` and included `\newcommand{\bm}{\boldsymbol}` in the file to let `\bm` command render correctly if someone is transferring from [KaTeX](https://katex.org).
+5. There is also a plugin called [Extended MathJax](https://github.com/wei2912/obsidian-latex), which allows the user to alter preambles. As for now, I created the file `preamble.sty` and included `\newcommand{\bm}{\boldsymbol}` in the file to let `\bm` command render correctly if someone is transferring from [KaTeX](https://katex.org).
+
 Once you installed LaTeX Suite, you can configure the snippets within the plugin. The plugin comes with a set of [default snippets](https://github.com/artisticat1/obsidian-latex-suite/blob/main/src/default_snippets.ts), which is loosely based on [Gilles Castell's](https://castel.dev/post/lecture-notes-1/#other-snippets). However, it is encouraged that you modify them on your own. To do so, open Settings, and scroll down until you find the settings of LaTeX Suite. You can see the snippets as a collection of typescript text.
+
 The [syntax](https://github.com/artisticat1/obsidian-latex-suite#snippets) of the snippets are pretty straightforward, but it is always better to check on it before making any modifications. You can also get a sense of how it works by taking look at the GIFs in the plugin `README.md`.
+
 The following are my version 1.0 modification of the default snippets. 
 ```typescript
 [    
